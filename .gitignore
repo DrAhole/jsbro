@@ -1,0 +1,17 @@
+# Binaries
+jsbro
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build directories
+/bin/
+/vendor/
+
+# Go files
+go.sum
+
+# Editor files
+.idea/
+*.swp
