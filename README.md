@@ -1,6 +1,6 @@
 # JSBro
 
-[https://i.postimg.cc/PvK5fbQr/jsbro.png](https://i.postimg.cc/fkQtKB3X/jsbro.png)
+[img](https://i.postimg.cc/fkQtKB3X/jsbro.png)
 
 JSBro is a powerful and fast tool written in Go for scanning JavaScript endpoints for secrets and sensitive information. By leveraging user-defined regex patterns (via YAML configuration), JSBro helps you quickly identify potential security leaks across a list of JavaScript URLs.
 
