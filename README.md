@@ -31,7 +31,7 @@ go build -o jsbro main.go
 JSBro requires two inputs:
 - A endpoint list file (`--list` or `-l`) that contains one JavaScript endpoint URL per line.
 - A YAML configuration file (`--config` or `-c`) that defines the regex patterns to search for, check the `/patterns/` directory.
-- A concurrency speed, the default 10 (`--concurrency` or `-n`) that defines how fast you want to scan.
+- A concurrency speed, the default is set to 10 (`--concurrency` or `-n`) that defines how fast you want to scan.
 
 ![JSBro Logo2](https://i.postimg.cc/h4fwQg9T/jsbro2.png)
 
