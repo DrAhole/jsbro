@@ -1,7 +1,5 @@
 # JSBro
 
-![JSbro_logo](https://i.postimg.cc/fkQtKB3X/jsbro.png)
-
 JSBro is a powerful and fast tool written in Go for scanning JavaScript endpoints for secrets and sensitive information. By leveraging user-defined regex patterns (via YAML configuration), JSBro helps you quickly identify potential security leaks across a list of JavaScript URLs.
 
 ## Features
@@ -9,6 +7,8 @@ JSBro is a powerful and fast tool written in Go for scanning JavaScript endpoint
 - **Concurrent Processing:** Scan multiple JS endpoints at once with configurable concurrency.
 - **Customizable Regex Patterns:** Easily define and update regex patterns using a YAML configuration file.
 - **Colorful, User-Friendly Output:** Results are clearly presented in your terminal with color coding for easy identification.
+
+![JSbro_logo](https://i.postimg.cc/fkQtKB3X/jsbro.png)
 
 ## Installation
 
