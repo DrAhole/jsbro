@@ -9,7 +9,6 @@ JSBro is a powerful and fast tool written in Go for scanning JavaScript endpoint
 - **Concurrent Processing:** Scan multiple JS endpoints at once with configurable concurrency.
 - **Customizable Regex Patterns:** Easily define and update regex patterns using a YAML configuration file.
 - **Colorful, User-Friendly Output:** Results are clearly presented in your terminal with color coding for easy identification.
-- **ASCII Art Banner:** Enjoy a stylish ASCII banner on startup.
 
 ## Installation
 
@@ -30,12 +29,13 @@ go build -o jsbro main.go
 ```
 ## Usage
 JSBro requires two inputs:
-- A list file (`--list` or `-l`) that contains one JavaScript endpoint URL per line.
+- A endpoint list file (`--list` or `-l`) that contains one JavaScript endpoint URL per line.
 - A YAML configuration file (`--config` or `-c`) that defines the regex patterns to search for, check the `/patterns/` directory.
+- A concurrency speed, the default 10 (`--concurrency` or `-n`) that defines how fast you want to scan.
 
 **Example command:**
 ```bash
-./jsbro --list /path/to/endpoints.txt --config /path/to/patterns.yaml --concurrency 10 --timeout 10
+./jsbro --list /path/to/endpoints.txt --config /path/to/patterns.yaml --concurrency 10
 ```
 ## Example YAML Configuration
 
