@@ -167,9 +167,9 @@ func loadEndpoints(filename string) ([]string, error) {
 func processEndpoint(url string, patterns []Pattern, client *http.Client) {
 	color.Cyan("[*] Fetching: %s", url)
 	resp, err := client.Get(url)
-	if err != nil {
-		color.Red("[-] Error fetching %s: %v", url, err)
-		return
+	//if err != nil {
+	//	color.Red("[-] Error fetching %s: %v", url, err)
+	//	return
 	}
 	defer resp.Body.Close()
 
