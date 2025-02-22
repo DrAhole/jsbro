@@ -1,4 +1,4 @@
-module github.com/grumpzsux/jsbro
+module github.com/drahole/jsbro
 
 go 1.19
 
